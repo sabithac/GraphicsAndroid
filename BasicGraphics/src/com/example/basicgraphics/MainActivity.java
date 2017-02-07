@@ -30,6 +30,16 @@ public class MainActivity extends Activity {
 		paint.setStyle(Paint.Style.FILL);
 		paint.setColor(Color.CYAN);
 		canvas.drawPaint(paint);
+		paint.setAntiAlias(false);
+		paint.setColor(Color.RED);
+		canvas.drawLine(10,5,0,0, paint);
+		paint.setAntiAlias(false);
+		paint.setColor(Color.MAGENTA);
+		canvas.drawCircle(10, 10, 10, paint);
+		paint.setAntiAlias(false);
+		paint.setColor(Color.RED);
+		canvas.drawRect(100, 5, 200, 30, paint);
+
     }
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
