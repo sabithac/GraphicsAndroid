@@ -19,7 +19,10 @@ public class MainActivity extends Activity {
         demo=new DemoView(this);
         setContentView(R.layout.activity_main);
     }
-
+    private class DemoView extends View {
+		public DemoView(Context mcontext) {
+			super(mcontext);
+		}
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
