@@ -1,5 +1,8 @@
 package com.example.basicgraphics;
-
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
